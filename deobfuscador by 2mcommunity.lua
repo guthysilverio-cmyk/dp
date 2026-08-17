@@ -93,7 +93,7 @@ t2.value12.JerseyDragaoEnabled = false
 t2.value12.JerseyPijamaEnabled = false
 t2.value12.JerseyDragaoTeam = "PRETA"
 t2.value12.JerseyPijamaTeam = "PRETO"
-t2.value12.ThemeColor = Color3.fromRGB(138, 43, 226)
+t2.value12.ThemeColor = Color3.fromRGB(255, 255, 0)
 t2.value13 = {}
 t2.value14 = {}
 t2.value15 = nil
@@ -130,7 +130,7 @@ function t2.value24(p4)
         return Color3.new(p4.r, p4.g, p4.b)
     end
 
-    return Color3.fromRGB(138, 43, 226)
+    return Color3.fromRGB(255, 255, 0)
 end
 function t2.value25(p5, p6)
     if p5 == nil then
@@ -612,16 +612,17 @@ t2.value38.Parent = PlayerGui
 t2.value39 = Instance.new("TextButton")
 t2.value39.Name = "FloatingButton"
 t2.value39.Size = UDim2.new(0, v6, 0, v6)
-t2.value39.Position = UDim2.new(0, 15, 0, 80)
+t2.value39.Position = UDim2.new(0.5, -30, 0.5, -30)
 t2.value39.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 t2.value39.BorderSizePixel = 0
-t2.value39.Text = "CS"
+t2.value39.Text = "DP"
 t2.value39.TextColor3 = Color3.fromRGB(20, 20, 20)
 t2.value39.TextSize = not t2.value10 and 22 or 18
 t2.value39.Font = Enum.Font.GothamBold
 t2.value39.TextStrokeTransparency = 0
 t2.value39.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 t2.value39.AutoButtonColor = false
+t2.value39.ZIndex = 10
 t2.value39.Parent = t2.value38
 local UIGradient = Instance.new("UIGradient")
 
@@ -1398,7 +1399,7 @@ TextLabel2.TextSize = 14
 TextLabel2.Font = Enum.Font.GothamBold
 TextLabel2.TextXAlignment = Enum.TextXAlignment.Left
 TextLabel2.Parent = Frame10
-local color3 = Color3.fromRGB(138, 43, 226)
+local color3 = Color3.fromRGB(255, 255, 0)
 local t14 = {
 	name = "Roxo",
 	color = color3
